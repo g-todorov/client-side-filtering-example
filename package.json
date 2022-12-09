@@ -1,0 +1,29 @@
+{
+  "name": "client-side-filtering-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "xstate typegen \"./app/**/*.ts?(x)\""
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@xstate/react": "^3.0.1",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "fuse.js": "^6.6.2",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.3",
+    "xstate": "^4.34.0"
+  },
+  "devDependencies": {
+    "@xstate/cli": "^0.3.3"
+  }
+}

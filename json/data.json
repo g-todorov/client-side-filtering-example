@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "name": "Ivan Shopov" },
+    { "id": 2, "name": "Magdalena Petrova" },
+    { "id": 3, "name": "Petar Dobrinov" },
+    { "id": 4, "name": "Petar Todorov" },
+    { "id": 5, "name": "John Atanasov" }
+  ]
+}
